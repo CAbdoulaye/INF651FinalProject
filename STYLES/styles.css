@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('../IMAGES/farmerBackground4.jpeg'); /* Updated background image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #006400; /* Dark green */
+  color: white;
+  padding: 1.5em; /* Increased padding */
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #fff; /* White border on hover */
+}
+
+section.main-content {
+  padding: 20px;
+  color: #333; /* Reverted back to the old text color */
+}
+
+footer {
+  background-color: #006400; /* Dark green */
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #006400;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #004d00; /* Darker green on hover */
+}
+
+/* Partnership Information Styles */
+.partnership-info {
+  margin-top: 30px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.partnership-info h3 {
+  color: #006400;
+}
+
+.partnership-info p {
+  color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  header {
+    padding: 1em;
+  }
+
+  nav {
+    padding: 5px;
+  }
+
+  nav li {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  footer {
+    position: relative;
+  }
+  .service {
+    padding: 15px;
+  }
+  
+}
+.service {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+  color: #006400;
+}
+
+.service p {
+  color: #555;
+}
+
+/* Additional styles for the about page */
+.about-info {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-info h3 {
+  color: #006400;
+}
+
+.about-info p {
+  color: #555;
+  line-height: 1.5; /* Improved readability with increased line height */
+}
+
+.homePageImages{
+  width: 300px;
+}

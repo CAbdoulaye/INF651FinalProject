@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #fff; /* White border on hover */
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.card{
+display: inline-block;
+width: 10rem;
+}
+
+#cart {
+  margin-top: 30px;
+  text-align: left;
+}
+
+#cartContent {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.quantity{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.itemName{
+  display: inline-block;
+  width: 200px;
+  padding-left: 15px;
+}
+
+.totalItemPrice{
+  display: inline-block;
+  width: 200px;
+}
+
+.itemPrice{
+  display: inline-block;
+  width: 200px;
+}
+
+#totalWord{
+  display: inline-block;
+  width: 200px;
+}
+
+#totalDiv{
+  padding-left: 10px;
+  text-align: left;
+}
+
+#totalWord{
+  display: inline-block;
+  width: 418px;
+}
+
+#totalPrice{
+  display: inline-block;
+  width: 20px;
+}
+
+#PlaceOrder{
+  text-align: left;
+}
+
+#btn-success{
+  text-align: left;
+}
